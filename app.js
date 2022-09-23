@@ -9,7 +9,7 @@ function getAge(){
     let getUserFullYear = new Date(userInput);
     let getUserYear = getUserFullYear.getFullYear();
     let getUserMonth = getUserFullYear.getMonth();
-    let getUserDay = getUserFullYear.getDay();
+    let getUserDay = getUserFullYear.getDate();
     
     
 
@@ -17,7 +17,7 @@ function getAge(){
     let now = new Date();
     let presentYear = now.getFullYear();
     let presentMonth = now.getMonth();
-    let presentDay = now.getDay();
+    let presentDay = now.getDate();
 
 
     // //timetraveler
